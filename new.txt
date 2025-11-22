@@ -1,1 +1,304 @@
-git
+// let a = 20;
+// {
+//     let a = 30;
+//     console.log("inside block", a);
+// }
+// console.log("outside block", a);
+
+// console.table({name:"satya", age:"22"});
+
+
+
+
+
+// console.warn("this is very");
+// const percentage = 23;
+// // harsh = string
+// // 12 = number
+// // true/ false = boolean
+// // [] = array
+// // {} = object
+// // 12.3 = float
+// console.error("hello");
+
+// let x = {name: "ari"};
+// let y = x;
+// y.name = "satya";
+// console.log(x.name);
+// let p = 13;
+// p -= 18;
+// p *= 3;
+// p /= 3;
+// p %= 2;
+// console.log(p);
+// // true || true = true
+// // true || fasle = true
+// // false || true = true
+// // false || fasle = true
+
+// 15 > 13 ? console.log("reewards") : console.log("hello");
+// "hardh"+"move"
+// let q = 15;
+//  if(q>3 && q<10 && q===9 ){
+//     console.log("hello");
+// }
+// else{
+//     console.log("bye");
+// }
+// if(3>11){
+//     console.log("hi");
+// }
+// else if(3>5){
+//     console.log("bui");
+// }
+// else{
+//     console.log("kol");
+// }
+// switch (1){
+//     case 1:
+//         console.log("one");
+//         break;
+//     case 2:
+//         console.log("teo");
+//         break;
+//     case 3:
+//         console.log("three");
+//         break;
+//     default:
+//         console.log("no match");    
+// }
+// for(let i = 11; i >= 6; i--){
+    
+//     if( i % 2 ===0){
+//         console.log( `${i} is even`);
+//     }
+//     else {console.log(` ${i} is off`);
+        
+//     }
+    
+// } 
+
+// //let s = prompt("enter the number");
+// //s = parseInt(Num);
+// //if( s > 0){
+//  //   console.log("positive");
+// //}
+// //else if( s == null){
+// //    console.error("you are fired.")
+// //}
+// //else if (s < 0){
+//  //   console.log("negetive");
+// //}
+// //else if (s.trim() === ""){
+//  //   console.log("pagal");
+
+// //}
+
+// let h = prompt("enter your age");
+// //if (h >= 18){
+//  //   console.log("you are eligible to vote");
+
+// //}
+// if( h === null) {
+//     console.error("you are not includeed");
+
+// }
+// else {
+//     h = Number(h);
+//     if(isNaN(h)){
+//         console.log("invalid");
+//     }
+//     else{
+//         if (h < 18){
+//             console.log("no vote");
+//         }
+//         else if ( h > 18){
+//             console.log("now vote");
+//         }
+//         else {
+//             console.log("cant vote");
+//         }
+//     }
+    
+// }
+// //else{
+//  //   console.log("your are fired");
+// //}
+// //let w = "new";
+// //if(isNaN(w)){
+//  //   console.log("pop");
+
+// //}
+// //else{
+// //    console.log("shop");
+// //}
+// //let c = 1 ;
+// //for ( let c = 1; c < 6; c++){
+//  //   console.log(` ${5} * ${c} = ${c*5}`)
+// //}
+// let count = 0;
+// for ( let w = 1; 18 >= w; w++){
+//     if( w > 8){
+//         count++;
+//         console.log(w);
+//     }
+// }
+// console.log(` new ${count}`);
+
+// let password = "hello7";
+// let pass = prompt("enter password");
+// if (pass === null){
+//     console.error("nikal")
+// }
+// else if(pass === password){
+//     console.log("welcome")
+// }
+// else if(pass.trim()=== ""){
+//     console.log("go")
+// }
+// else{
+//     console.log("pro")
+// }
+{
+  let a = 30;
+  console.log("inside block", a);
+}
+let attempts = 0;
+
+let b = prompt("lekho");
+let khulgeya = false;
+while( b !== "stop"){
+  if (attempts === 4) {
+   console.error("locked");
+    break;
+  }   
+  attempts++ ;
+  console.log(b);
+  b = prompt("lekho"); 
+  if ( b === "stop") khulgeya = true;
+}
+if ( khulgeya = true){
+  console.log("pass");
+}
+{
+  let a = 30;
+  console.log("inside block", a);
+}
+let attempts = 0;
+
+let b = prompt("lekho");
+attempts++;
+let khulgeya = false;
+while( b !== "stop"){
+  if (attempts === 4) {
+   console.error("locked");
+    break;
+  }   
+  attempts++ ;
+  console.log(b);
+  b = prompt("lekho"); 
+  if ( b === "stop") khulgeya = true;
+}
+if ( khulgeya = true){
+  console.log("pass");
+}
+let attempts = 0;
+let f = "newvalue";
+let p = prompt("first value");
+attempts++;
+while ( f !== p && attempts<3){
+  attempts++;
+  console.log(`${p}`);
+  p = prompt("first value");
+}
+
+if( f !== p && attempts===3){
+  console.error("account locked");
+
+}
+else{
+  console.log("done");
+}
+let a = "stop";
+let count = 0;
+let userpass = prompt("lekho");
+
+while(a !== userpass){
+  if( userpass === "yes"){
+    count++;
+    console.log("yes");
+    
+  }
+  userpass = prompt("lekho");
+    
+}
+total sum
+console.log(` ${count}`);
+let a = 1 ;
+let sum = 0;
+for ( a === 1; a < 30; a++){
+  if(a % 2 === 1 ){
+    sum = sum + a;
+  }
+}
+bank balance++++++
+console.log(sum);
+let balance = 1000;
+let counter = 0;
+let flag = false;
+
+while(0 < balance && counter !== 4) {
+  counter++;
+  withdraw = +prompt("kitna");
+  
+  if (balance >= withdraw) {
+    balance -= withdraw;
+  }
+  else{
+    flag = true;
+    break;
+  }
+}
+if( flag = true){
+  console.log("insufficient balance");
+}
+
+console.log(`${balance}`)
+function
+function bal(vul){
+  return 12 + vul;
+}
+let c = bal(13);
+console.log(c);
+let anm = [51, 92, 3, 4];
+let learry = anm.sort( function (c, d){
+    return( c - d );
+
+})
+let p = [2, 3, 5, 8, 10];
+let q = p.filter(function(va){
+    return va<5;
+})
+a(3,5,45,35,65)
+arguments[3]
+let obj = {
+    name : "harh",
+    age: 27,
+    birth : 2001
+}
+for(let key in obj){
+    console.log(obj[key]);
+}
+setTimeout(
+    function(){
+        console.log("time ka baap");
+    }, 2000);
+
+let obj = {
+    harsh : 12000, nomita : 21000, bola : 13000 
+
+}
+let sum = 0;
+for ( let key in obj){
+    sum += obj[key];
+}
